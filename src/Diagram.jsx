@@ -22,9 +22,7 @@ export default function Diagram({ advanced, reactVersion }) {
   return (
     <>
       <h2 className="hidden">Component lifecycle</h2>
-      <Mounting advanced={advanced} />
-      <Updating advanced={advanced} />
-      <Unmounting advanced={advanced} />
+      <Mounting />
     </>
   );
 }
