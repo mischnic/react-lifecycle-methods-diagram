@@ -1,13 +1,12 @@
 import React from 'react';
 
-import T, { useTranslation } from './i18n';
 
 export default function GitHub() {
-  const title = useTranslation('See project\'s page on GitHub (opens in a new tab)');
+  const title = ('See project\'s page on GitHub (opens in a new tab)');
 
   return (
     <>
-      <T>See project on</T>
+      See project on
       &nbsp;
       <a
         className="GitHub"

@@ -9,93 +9,6 @@
     "start": "parcel src/index.html",
     "test": "yarn lint"
   },
-  "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
-  },
-  "contributors": [
-    {
-      "name": "Alexey Pyltsyn",
-      "email": "lex@php.net"
-    },
-    {
-      "name": "Andrew Jefferson",
-      "email": "andrew.jefferson@arkadyt.com"
-    },
-    {
-      "name": "Armin Schweitzer"
-    },
-    {
-      "name": "Artur Basak",
-      "email": "artur.basak.devingrodno@gmail.com"
-    },
-    {
-      "name": "Burak Shen",
-      "email": "tobuba2@gmail.com"
-    },
-    {
-      "name": "Dmytro Nedolia"
-    },
-    {
-      "name": "Eddy Chang",
-      "email": "eddy@joomla.com.tw"
-    },
-    {
-      "name": "greatsteppe"
-    },
-    {
-      "name": "Joris Tirado",
-      "email": "joris@tirado.com"
-    },
-    {
-      "name": "Kenneth Luján Rosas",
-      "email": "elgenio.03@gmail.com"
-    },
-    {
-      "name": "Lara de Oliveira"
-    },
-    {
-      "name": "Majed Bojan",
-      "email": "bojanmajed@gmail.com"
-    },
-    {
-      "name": "Marek Suscak",
-      "email": "marek.suscak@gmail.com"
-    },
-    {
-      "name": "Mohamad Shiralizadeh",
-      "email": "mohamad.shir@gmail.com"
-    },
-    {
-      "name": "Oerd Cukalla"
-    },
-    {
-      "name": "QiChang Li",
-      "email": "github@liqichang.com"
-    },
-    {
-      "name": "Simone D'Amico",
-      "email": "info@simonedamico.com"
-    },
-    {
-      "name": "Sung Kim"
-    },
-    {
-      "name": "Suraneti Rodsuwan",
-      "email": "suraneti.rod@gmail.com"
-    },
-    {
-      "name": "Tony Hudson"
-    },
-    {
-      "name": "Yin Hengli",
-      "email": "yinhengliben@gmail.com"
-    },
-    {
-      "name": "YIPG",
-      "email": "around.mr.child@gmail.com"
-    }
-  ],
   "license": "MIT",
   "dependencies": {
     "core-js": "3",
@@ -120,11 +33,10 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "less": "^3.9.0",
-    "parcel": "^2.0.0-alpha.3.1",
     "rimraf": "^3.0.0"
   },
   "targets": {
-    "browser": {
+    "default": {
       "publicUrl": "./"
     }
   }
